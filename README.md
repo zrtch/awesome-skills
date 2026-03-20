@@ -6,7 +6,9 @@
 
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Compatible-blue)](https://openclaw.ai)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-10-orange)](./skills)
+[![Skills](https://img.shields.io/badge/Skills-30-orange)](./skills)
+
+**[English](./README_EN.md)** | 简体中文
 
 </div>
 
@@ -53,6 +55,7 @@ npx clawhub@latest install github
 | [**coding-agent**](./skills/coding-agent) | 编程代理，自动化代码编写、重构和 PR 审查 | ⭐⭐⭐ |
 | [**github**](./skills/github) | GitHub 集成，管理仓库、Issues、PRs | ⭐⭐ |
 | [**skill-creator**](./skills/skill-creator) | Skill 创建工具，快速生成新的 Agent Skill | ⭐⭐ |
+| [**gh-issues**](./skills/gh-issues) | GitHub Issues 自动化处理 | ⭐⭐ |
 
 ### 📝 生产力工具
 
@@ -61,13 +64,32 @@ npx clawhub@latest install github
 | [**notion**](./skills/notion) | Notion 集成，管理笔记和数据库 | ⭐⭐ |
 | [**obsidian**](./skills/obsidian) | Obsidian 笔记集成 | ⭐ |
 | [**summarize**](./skills/summarize) | 智能内容总结工具 | ⭐ |
+| [**apple-notes**](./skills/apple-notes) | Apple 备忘录集成 | ⭐ |
+| [**apple-reminders**](./skills/apple-reminders) | Apple 提醒事项 | ⭐ |
+| [**things-mac**](./skills/things-mac) | Things 3 任务管理 | ⭐⭐ |
+| [**trello**](./skills/trello) | Trello 看板集成 | ⭐⭐ |
+| [**bear-notes**](./skills/bear-notes) | Bear 笔记集成 | ⭐ |
 
 ### 🌐 通讯与协作
 
 | Skill | 描述 | 难度 |
 |-------|------|------|
 | [**slack**](./skills/slack) | Slack 团队协作集成 | ⭐⭐ |
+| [**discord**](./skills/discord) | Discord 集成 | ⭐⭐ |
 | [**voice-call**](./skills/voice-call) | 语音通话能力 | ⭐⭐ |
+| [**imsg**](./skills/imsg) | iMessage 集成 | ⭐⭐ |
+| [**bluebubbles**](./skills/bluebubbles) | BlueBubbles iMessage 集成 | ⭐⭐ |
+| [**himalaya**](./skills/himalaya) | Himalaya 邮件客户端 | ⭐⭐ |
+
+### 🤖 AI 与多媒体
+
+| Skill | 描述 | 难度 |
+|-------|------|------|
+| [**gemini**](./skills/gemini) | Google Gemini AI 集成 | ⭐⭐ |
+| [**sag**](./skills/sag) | ElevenLabs TTS 语音合成 | ⭐⭐ |
+| [**gifgrep**](./skills/gifgrep) | GIF 搜索工具 | ⭐ |
+| [**spotify-player**](./skills/spotify-player) | Spotify 音乐播放 | ⭐⭐ |
+| [**sonoscli**](./skills/sonoscli) | Sonos 音响控制 | ⭐⭐ |
 
 ### 🔧 系统工具
 
@@ -75,6 +97,11 @@ npx clawhub@latest install github
 |-------|------|------|
 | [**weather**](./skills/weather) | 天气查询和预报 | ⭐ |
 | [**healthcheck**](./skills/healthcheck) | 系统健康检查和安全审计 | ⭐⭐ |
+| [**1password**](./skills/1password) | 1Password 密码管理 | ⭐⭐ |
+| [**canvas**](./skills/canvas) | OpenClaw Canvas 画布操作 | ⭐⭐ |
+| [**clawhub**](./skills/clawhub) | ClawHub Skills 市场集成 | ⭐ |
+| [**goplaces**](./skills/goplaces) | 地点搜索与导航 | ⭐ |
+| [**gog**](./skills/gog) | GoG 游戏平台集成 | ⭐ |
 
 ---
 
@@ -105,10 +132,11 @@ Agent：[使用 weather skill] 今天杭州晴，18°C...
 
 | 你的需求 | 推荐的 Skills |
 |---------|--------------|
-| 提高开发效率 | coding-agent, github, skill-creator |
-| 管理日常事务 | notion, obsidian, weather |
-| 团队协作 | slack, voice-call |
-| 系统维护 | healthcheck |
+| 提高开发效率 | coding-agent, github, gh-issues, skill-creator |
+| 管理日常事务 | notion, obsidian, apple-notes, things-mac, weather |
+| 团队协作 | slack, discord, voice-call, imsg |
+| 系统维护 | healthcheck, 1password |
+| AI 与多媒体 | gemini, sag, spotify-player |
 
 ---
 

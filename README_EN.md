@@ -6,7 +6,9 @@
 
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Compatible-blue)](https://openclaw.ai)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-10-orange)](./skills)
+[![Skills](https://img.shields.io/badge/Skills-30-orange)](./skills)
+
+English | **[简体中文](./README.md)**
 
 </div>
 
@@ -53,6 +55,7 @@ Restart OpenClaw, and your Agent will automatically load the newly installed Ski
 | [**coding-agent**](./skills/coding-agent) | Programming agent for automated coding, refactoring, and PR reviews | ⭐⭐⭐ |
 | [**github**](./skills/github) | GitHub integration for repo management, Issues, and PRs | ⭐⭐ |
 | [**skill-creator**](./skills/skill-creator) | Skill creation tool to quickly generate new Agent Skills | ⭐⭐ |
+| [**gh-issues**](./skills/gh-issues) | GitHub Issues automation and PR workflow | ⭐⭐ |
 
 ### 📝 Productivity Tools
 
@@ -61,13 +64,32 @@ Restart OpenClaw, and your Agent will automatically load the newly installed Ski
 | [**notion**](./skills/notion) | Notion integration for notes and database management | ⭐⭐ |
 | [**obsidian**](./skills/obsidian) | Obsidian note-taking integration | ⭐ |
 | [**summarize**](./skills/summarize) | Intelligent content summarization tool | ⭐ |
+| [**apple-notes**](./skills/apple-notes) | Apple Notes integration | ⭐ |
+| [**apple-reminders**](./skills/apple-reminders) | Apple Reminders integration | ⭐ |
+| [**things-mac**](./skills/things-mac) | Things 3 task management | ⭐⭐ |
+| [**trello**](./skills/trello) | Trello board integration | ⭐⭐ |
+| [**bear-notes**](./skills/bear-notes) | Bear notes integration | ⭐ |
 
 ### 🌐 Communication & Collaboration
 
 | Skill | Description | Level |
 |-------|-------------|-------|
 | [**slack**](./skills/slack) | Slack team collaboration integration | ⭐⭐ |
+| [**discord**](./skills/discord) | Discord integration | ⭐⭐ |
 | [**voice-call**](./skills/voice-call) | Voice calling capabilities | ⭐⭐ |
+| [**imsg**](./skills/imsg) | iMessage integration | ⭐⭐ |
+| [**bluebubbles**](./skills/bluebubbles) | BlueBubbles iMessage integration | ⭐⭐ |
+| [**himalaya**](./skills/himalaya) | Himalaya email client | ⭐⭐ |
+
+### 🤖 AI & Multimedia
+
+| Skill | Description | Level |
+|-------|-------------|-------|
+| [**gemini**](./skills/gemini) | Google Gemini AI integration | ⭐⭐ |
+| [**sag**](./skills/sag) | ElevenLabs TTS voice synthesis | ⭐⭐ |
+| [**gifgrep**](./skills/gifgrep) | GIF search tool | ⭐ |
+| [**spotify-player**](./skills/spotify-player) | Spotify music player | ⭐⭐ |
+| [**sonoscli**](./skills/sonoscli) | Sonos speaker control | ⭐⭐ |
 
 ### 🔧 System Utilities
 
@@ -75,6 +97,11 @@ Restart OpenClaw, and your Agent will automatically load the newly installed Ski
 |-------|-------------|-------|
 | [**weather**](./skills/weather) | Weather lookup and forecasts | ⭐ |
 | [**healthcheck**](./skills/healthcheck) | System health checks and security auditing | ⭐⭐ |
+| [**1password**](./skills/1password) | 1Password password manager | ⭐⭐ |
+| [**canvas**](./skills/canvas) | OpenClaw Canvas operations | ⭐⭐ |
+| [**clawhub**](./skills/clawhub) | ClawHub Skills marketplace integration | ⭐ |
+| [**goplaces**](./skills/goplaces) | Location search and navigation | ⭐ |
+| [**gog**](./skills/gog) | GoG gaming platform integration | ⭐ |
 
 ---
 
@@ -105,10 +132,11 @@ Agent: [Using weather skill] Today in Hangzhou: Sunny, 18°C...
 
 | Your Needs | Recommended Skills |
 |------------|-------------------|
-| Boost development efficiency | coding-agent, github, skill-creator |
-| Manage daily tasks | notion, obsidian, weather |
-| Team collaboration | slack, voice-call |
-| System maintenance | healthcheck |
+| Boost development efficiency | coding-agent, github, gh-issues, skill-creator |
+| Manage daily tasks | notion, obsidian, apple-notes, things-mac, weather |
+| Team collaboration | slack, discord, voice-call, imsg |
+| System maintenance | healthcheck, 1password |
+| AI & Multimedia | gemini, sag, spotify-player |
 
 ---
 
