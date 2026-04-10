@@ -1,0 +1,16 @@
+{
+  "name": "koda-email-summarizer",
+  "version": "1.0.0",
+  "description": "OpenClaw skill: Email summarizer with IMAP support",
+  "main": "skill.py",
+  "scripts": {
+    "test": "python skill.py"
+  },
+  "keywords": ["openclaw", "email", "summarizer", "automation"],
+  "author": "Koda <koda93400@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayanjsp/email-summarizer"
+  }
+}

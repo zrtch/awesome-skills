@@ -1,0 +1,12 @@
+{
+  "name": "koda-calendar-optimizer",
+  "version": "1.0.0",
+  "description": "OpenClaw skill: Calendar optimizer with CalDAV support",
+  "main": "skill.py",
+  "scripts": {
+    "test": "python skill.py"
+  },
+  "keywords": ["openclaw", "calendar", "optimizer", "automation"],
+  "author": "Koda <koda93400@gmail.com>",
+  "license": "MIT"
+}
