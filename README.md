@@ -2,11 +2,11 @@
 
 # 🔥 Awesome OpenClaw Skills
 
-**最全面的 OpenClaw Agent Skills 精选合集 | 72+ 技能包**
+**最全面的 OpenClaw Agent Skills 精选合集 | 116 技能包**
 
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Compatible-blue)](https://openclaw.ai)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-72+-orange)](./skills)
+[![Skills](https://img.shields.io/badge/Skills-116-orange)](./skills)
 
 **[English](./README_EN.md)** | 简体中文
 
@@ -128,7 +128,7 @@ npx clawhub@latest install github
 | [xlsx](./skills/xlsx) | Excel 电子表格 | ⭐⭐ |
 | [nano-pdf](./skills/nano-pdf) | Nano PDF 处理 | ⭐⭐ |
 
-### 📊 数据与搜索 (7)
+### 📊 数据与搜索 (9)
 
 | Skill | 描述 | 难度 |
 |-------|------|------|
@@ -139,6 +139,8 @@ npx clawhub@latest install github
 | [agent-reach](./skills/agent-reach) | 社交平台接入工具 | ⭐⭐ |
 | [goplaces](./skills/goplaces) | 地点搜索与导航 | ⭐ |
 | [weather](./skills/weather) | 天气查询和预报 | ⭐ |
+| [polymarket-trade](./skills/polymarket-trade) | Polymarket 预测市场查询 | ⭐⭐ |
+| [prismfy-search](./skills/prismfy-search) | Prismfy 多引擎网页搜索 | ⭐ |
 
 ### 🏢 企业协作 (4)
 
@@ -149,7 +151,7 @@ npx clawhub@latest install github
 | [feishu-wiki](./skills/feishu-wiki) | 飞书知识库集成 | ⭐⭐ |
 | [feishu-perm](./skills/feishu-perm) | 飞书权限管理 | ⭐⭐ |
 
-### 🔧 系统工具 (6)
+### 🔧 系统工具 (9)
 
 | Skill | 描述 | 难度 |
 |-------|------|------|
@@ -159,6 +161,9 @@ npx clawhub@latest install github
 | [gog](./skills/gog) | GoG 游戏平台集成 | ⭐ |
 | [clawhub](./skills/clawhub) | ClawHub Skills 市场集成 | ⭐ |
 | [md2wechat](./skills/md2wechat) | Markdown 转微信公众号格式 | ⭐⭐ |
+| [pollyreach](./skills/pollyreach) | AI 电话助手，自动拨号完成任务 | ⭐⭐⭐ |
+| [free-ride](./skills/free-ride) | 免费 AI 模型管理（OpenRouter） | ⭐⭐ |
+| [elite-longterm-memory](./skills/elite-longterm-memory) | 高级长期记忆系统（WAL+向量搜索） | ⭐⭐⭐ |
 
 ---
 
